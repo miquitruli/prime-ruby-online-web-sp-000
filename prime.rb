@@ -1,7 +1,7 @@
 
 
 def prime?(num)
-  num.each do |number|
+  num.to_a.each do|number|
     if number.prime? == true
       return true
     elsif number.prime? == false
