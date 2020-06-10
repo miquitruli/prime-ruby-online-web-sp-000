@@ -1,11 +1,12 @@
 
 
 def prime?(num)
-  prime = []
+  num = []
   num.each do |number|
     if number.prime? == true
-      prime<<number
+      return true
+    elsif number.prime? == false
+      return false
     end
   end
-  nil
 end
