@@ -2,8 +2,8 @@
 
 def prime?(num)
   num = []
-  prime = num.to_i
-  prime.each do|number|
+  primes = num.to_i
+  primes.each do|number|
     if number.prime? == true
       return true
     elsif number.prime? == false
