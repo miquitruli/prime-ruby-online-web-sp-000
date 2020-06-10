@@ -1,13 +1,11 @@
 
 
 def prime?(num)
-
-  for x in 2..(num-1)
-    num >=2
-    if (num % x) == 0
-      return false
-    else
-      return true
-    end
+  for d in 2..(n - 1)
+   if (n % d) == 0
+    return false
+   end
   end
-end
+
+  true
+ end
