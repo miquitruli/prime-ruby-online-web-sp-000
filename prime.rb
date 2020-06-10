@@ -1,6 +1,7 @@
 
 
 def prime?(num)
+  num = []
   prime = num.to_i
   prime.each do|number|
     if number.prime? == true
