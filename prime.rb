@@ -6,5 +6,9 @@ def prime?(num)
       return false
     end
   end
-  return true
+  if num <2
+    return false
+  elsif num == 2
+    return true
+  end
 end
