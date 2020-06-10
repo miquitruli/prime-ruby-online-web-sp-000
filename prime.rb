@@ -1,7 +1,6 @@
 
 
 def prime?(num)
-  num = []
   num.each do |number|
     if number.prime? == true
       return true
