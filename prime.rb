@@ -10,5 +10,7 @@ def prime?(num)
   end
   if num <2
     return false
+  elsif num == 2
+    return true
   end
 end
