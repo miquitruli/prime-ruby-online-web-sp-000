@@ -1,13 +1,12 @@
 
 
 def prime?(num)
-  if num<2
-    return false
-  primes.each do|number|
-    if number.prime? == true
-      return true
-    elsif number.prime? == false
+  for x in 2..num-1
+    return x
+    if num % x == 0
       return false
+    else
+      return true
     end
   end
 end
